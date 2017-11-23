@@ -37,7 +37,7 @@ public class SuiteOfTestCases extends org.eclipse.jdt.core.tests.junit.extension
 	 * Number of milliseconds that a test case can run for before we consider it to be potentially
 	 * deadlocked and dump out a stack trace. Currently set to 5 minutes.
 	 */
-	private static final long FROZEN_TEST_TIMEOUT_MS = 1000 * 60 * 5;
+	private static final long FROZEN_TEST_TIMEOUT_MS = 1000 * 60 * 60;
 
 	/*
 	 * A test suite that initialize the test case's fields once, then that copies the values
